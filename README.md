@@ -14,3 +14,4 @@ The verification environment also checks:
 5. Protocol-compliant timing behavior
 
 This project demonstrates a strong understanding of AMBA APB protocol, SystemVerilog, and UVM-based verification, making it suitable for showcasing skills required for ASIC/SoC verification roles.
+ 
