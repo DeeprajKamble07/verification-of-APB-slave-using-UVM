@@ -1,0 +1,619 @@
+[2026-01-17 11:28:36 UTC] vcs -full64 -licqueue +incdir+$UVM_HOME/src $UVM_HOME/src/uvm.sv $UVM_HOME/src/dpi/uvm_dpi.cc -CFLAGS -DVCS '-timescale=1ns/1ns' '+vcs+flush+all' '+warn=all' '-sverilog' design.sv testbench.sv  && ./simv +vcs+lic+wait  
+                         Chronologic VCS (TM)
+       Version U-2023.03-SP2_Full64 -- Sat Jan 17 06:28:38 2026
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm.sv'
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_version_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_global_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/snps_macros.svp'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_message_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_phase_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_object_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_printer_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_sequence_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_callback_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_reg_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/macros/uvm_deprecated_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_hdl.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_regex.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_coreservice.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_version.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_object_globals.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_misc.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_object.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_pool.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_queue.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_factory.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_registry.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_spell_chkr.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_resource.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_resource_specializations.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_resource_db.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_config_db.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_printer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_comparer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_packer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_links.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_tr_database.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_tr_stream.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_recorder.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_event_callback.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_event.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_barrier.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_callback.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_callback.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_message.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_catcher.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_server.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_handler.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_object.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_transaction.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_phase.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_domain.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_bottomup_phase.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_topdown_phase.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_task_phase.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_common_phases.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_runtime_phases.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_component.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_root.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_component.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_objection.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_heartbeat.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_globals.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_cmdline_processor.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_traversal.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_set_get_dap_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_simple_lock_dap.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_set_before_get_dap.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_port_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_ports.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_exports.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_analysis_port.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_sqr_connections.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_pair.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_policies.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_in_order_comparator.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_random_stimulus.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_subscriber.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_monitor.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_driver.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_push_driver.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_scoreboard.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_agent.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_env.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_test.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence_item.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequencer_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequencer_param_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequencer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_push_sequencer.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence_library.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_sequence_builtin.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_time.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_item.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_adapter.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_predictor.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_sequence.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_cbs.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_backdoor.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_field.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_vreg_field.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_indirect.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_fifo.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_file.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_mem_mam.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_vreg.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_mem.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_map.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_block.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/snps_uvm_reg_bank.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/vcs_uvm_alt.sv'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_pkg.sv'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm.sv'.
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh'.
+Back to file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm.sv'.
+Parsing design file 'design.sv'
+Parsing design file 'testbench.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+testbench.sv, 5
+$unit
+  Package 'uvm_pkg' already wildcard imported. 
+  Ignoring uvm_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing included file '/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file 'testbench.sv'.
+Parsing included file 'interface.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'sequence_item.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'sequence.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'sequencer.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'driver.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'monitor.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'scoreboard.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'agent.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'env.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'test.sv'.
+Back to file 'testbench.sv'.
+Top Level Modules:
+       top
+TimeScale is 1 ns / 1 ns
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh, 180
+$unit
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh, 247
+$unit
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh, 165
+$unit
+  Illegal '!' operator on class handle 'this.m_use_map'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!this.m_use_map)
+
+
+Warning-[SV-ICHU] Illegal class handle usage
+/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/vcs/snps_reg.svh, 167
+$unit
+  Illegal '!' operator on class handle 'rg'.
+  As per LRM(P1800-2009), section 8.4. only ==, !=, ===, !== and conditional 
+  operator are allowed operators on class handles.
+  Source Expression: (!rg)
+
+Starting vcs inline pass...
+
+6 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling package _vcs_DPI_package
+recompiling package uvm_pkg
+recompiling module apb_slave
+recompiling module intf
+recompiling module top
+All of 6 modules done
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+g++ -w  -pipe -fPIC -DVCS -O -I/apps/vcsmx/vcs/U-2023.03-SP2/include    -c /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/dpi/uvm_dpi.cc
+gcc  -w  -pipe -fPIC -DVCS -O -I/apps/vcsmx/vcs/U-2023.03-SP2/include    -fPIC -c -o uM9F1_0x2aB.o uM9F1_0x2aB.c
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/apps/vcsmx/vcs/U-2023.03-SP2/linux64/lib -L/apps/vcsmx/vcs/U-2023.03-SP2/linux64/lib  -Wl,-rpath-link=./  uvm_dpi.o   objs/amcQw_d.o   _425_archive_1.so   SIM_l.o    uM9F1_0x2aB.o   rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /apps/vcsmx/vcs/U-2023.03-SP2/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /apps/vcsmx/vcs/U-2023.03-SP2/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 12.633 seconds to compile + .518 seconds to elab + .677 seconds to link
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2_Full64; Runtime version U-2023.03-SP2_Full64;  Jan 17 06:28 2026
+UVM_INFO /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test test...
+UVM_INFO scoreboard.sv(45) @ 15: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 15: uvm_test_top.env.scb [] Addr: 0 Expected Data: 0 Actual Data: 0
+UVM_INFO scoreboard.sv(38) @ 35: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 35: uvm_test_top.env.scb [] Addr: ff Data: 9f
+UVM_INFO scoreboard.sv(38) @ 75: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 75: uvm_test_top.env.scb [] Addr: ff Data: d3
+UVM_INFO scoreboard.sv(45) @ 115: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 115: uvm_test_top.env.scb [] Addr: ff Expected Data: d3 Actual Data: d3
+UVM_INFO scoreboard.sv(38) @ 155: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 155: uvm_test_top.env.scb [] Addr: ff Data: f6
+UVM_INFO scoreboard.sv(45) @ 195: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 195: uvm_test_top.env.scb [] Addr: ff Expected Data: f6 Actual Data: f6
+UVM_INFO scoreboard.sv(38) @ 235: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 235: uvm_test_top.env.scb [] Addr: ff Data: 1b
+UVM_INFO scoreboard.sv(45) @ 275: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 275: uvm_test_top.env.scb [] Addr: ff Expected Data: 1b Actual Data: 1b
+UVM_INFO scoreboard.sv(38) @ 315: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 315: uvm_test_top.env.scb [] Addr: ff Data: 62
+UVM_INFO scoreboard.sv(38) @ 355: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 355: uvm_test_top.env.scb [] Addr: ff Data: 98
+UVM_INFO scoreboard.sv(45) @ 395: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 395: uvm_test_top.env.scb [] Addr: ff Expected Data: 98 Actual Data: 98
+UVM_INFO scoreboard.sv(45) @ 435: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 435: uvm_test_top.env.scb [] Addr: ff Expected Data: 98 Actual Data: 98
+UVM_INFO scoreboard.sv(45) @ 475: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 475: uvm_test_top.env.scb [] Addr: ff Expected Data: 98 Actual Data: 98
+UVM_INFO scoreboard.sv(45) @ 515: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 515: uvm_test_top.env.scb [] Addr: ff Expected Data: 98 Actual Data: 98
+UVM_INFO scoreboard.sv(45) @ 555: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 555: uvm_test_top.env.scb [] Addr: ff Expected Data: 98 Actual Data: 98
+UVM_INFO scoreboard.sv(45) @ 595: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 595: uvm_test_top.env.scb [] Addr: ff Expected Data: 98 Actual Data: 98
+UVM_INFO scoreboard.sv(45) @ 635: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 635: uvm_test_top.env.scb [] Addr: ff Expected Data: 98 Actual Data: 98
+UVM_INFO scoreboard.sv(38) @ 675: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 675: uvm_test_top.env.scb [] Addr: ff Data: 7c
+UVM_INFO scoreboard.sv(45) @ 715: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 715: uvm_test_top.env.scb [] Addr: ff Expected Data: 7c Actual Data: 7c
+UVM_INFO scoreboard.sv(45) @ 755: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 755: uvm_test_top.env.scb [] Addr: ff Expected Data: 7c Actual Data: 7c
+UVM_INFO scoreboard.sv(45) @ 795: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 795: uvm_test_top.env.scb [] Addr: ff Expected Data: 7c Actual Data: 7c
+UVM_INFO scoreboard.sv(45) @ 835: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 835: uvm_test_top.env.scb [] Addr: ff Expected Data: 7c Actual Data: 7c
+UVM_INFO scoreboard.sv(38) @ 875: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 875: uvm_test_top.env.scb [] Addr: ff Data: 3b
+UVM_INFO scoreboard.sv(38) @ 915: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 915: uvm_test_top.env.scb [] Addr: ff Data: bc
+UVM_INFO scoreboard.sv(38) @ 955: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 955: uvm_test_top.env.scb [] Addr: ff Data: a5
+UVM_INFO scoreboard.sv(45) @ 995: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 995: uvm_test_top.env.scb [] Addr: ff Expected Data: a5 Actual Data: a5
+UVM_INFO scoreboard.sv(38) @ 1035: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1035: uvm_test_top.env.scb [] Addr: ff Data: 9d
+UVM_INFO scoreboard.sv(45) @ 1075: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1075: uvm_test_top.env.scb [] Addr: ff Expected Data: 9d Actual Data: 9d
+UVM_INFO scoreboard.sv(45) @ 1115: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1115: uvm_test_top.env.scb [] Addr: ff Expected Data: 9d Actual Data: 9d
+UVM_INFO scoreboard.sv(38) @ 1155: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1155: uvm_test_top.env.scb [] Addr: ff Data: a7
+UVM_INFO scoreboard.sv(38) @ 1195: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1195: uvm_test_top.env.scb [] Addr: ff Data: 2a
+UVM_INFO scoreboard.sv(38) @ 1235: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1235: uvm_test_top.env.scb [] Addr: ff Data: cf
+UVM_INFO scoreboard.sv(38) @ 1275: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1275: uvm_test_top.env.scb [] Addr: ff Data: 1e
+UVM_INFO scoreboard.sv(45) @ 1315: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1315: uvm_test_top.env.scb [] Addr: ff Expected Data: 1e Actual Data: 1e
+UVM_INFO scoreboard.sv(45) @ 1355: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1355: uvm_test_top.env.scb [] Addr: ff Expected Data: 1e Actual Data: 1e
+UVM_INFO scoreboard.sv(45) @ 1395: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1395: uvm_test_top.env.scb [] Addr: ff Expected Data: 1e Actual Data: 1e
+UVM_INFO scoreboard.sv(45) @ 1435: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1435: uvm_test_top.env.scb [] Addr: ff Expected Data: 1e Actual Data: 1e
+UVM_INFO scoreboard.sv(45) @ 1475: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1475: uvm_test_top.env.scb [] Addr: ff Expected Data: 1e Actual Data: 1e
+UVM_INFO scoreboard.sv(38) @ 1515: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1515: uvm_test_top.env.scb [] Addr: ff Data: 78
+UVM_INFO scoreboard.sv(38) @ 1555: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1555: uvm_test_top.env.scb [] Addr: ff Data: cb
+UVM_INFO scoreboard.sv(45) @ 1595: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1595: uvm_test_top.env.scb [] Addr: ff Expected Data: cb Actual Data: cb
+UVM_INFO scoreboard.sv(38) @ 1635: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1635: uvm_test_top.env.scb [] Addr: ff Data: ba
+UVM_INFO scoreboard.sv(45) @ 1675: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1675: uvm_test_top.env.scb [] Addr: ff Expected Data: ba Actual Data: ba
+UVM_INFO scoreboard.sv(38) @ 1715: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1715: uvm_test_top.env.scb [] Addr: ff Data: 56
+UVM_INFO scoreboard.sv(45) @ 1755: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 1755: uvm_test_top.env.scb [] Addr: ff Expected Data: 56 Actual Data: 56
+UVM_INFO scoreboard.sv(38) @ 1795: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1795: uvm_test_top.env.scb [] Addr: ff Data: 39
+UVM_INFO scoreboard.sv(38) @ 1835: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1835: uvm_test_top.env.scb [] Addr: ff Data: 8e
+UVM_INFO scoreboard.sv(38) @ 1875: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1875: uvm_test_top.env.scb [] Addr: ff Data: b0
+UVM_INFO scoreboard.sv(38) @ 1915: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1915: uvm_test_top.env.scb [] Addr: ff Data: e1
+UVM_INFO scoreboard.sv(38) @ 1955: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1955: uvm_test_top.env.scb [] Addr: ff Data: e7
+UVM_INFO scoreboard.sv(38) @ 1995: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 1995: uvm_test_top.env.scb [] Addr: ff Data: 23
+UVM_INFO scoreboard.sv(38) @ 2035: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2035: uvm_test_top.env.scb [] Addr: ff Data: c3
+UVM_INFO scoreboard.sv(38) @ 2075: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2075: uvm_test_top.env.scb [] Addr: ff Data: 95
+UVM_INFO scoreboard.sv(45) @ 2115: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2115: uvm_test_top.env.scb [] Addr: ff Expected Data: 95 Actual Data: 95
+UVM_INFO scoreboard.sv(45) @ 2155: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2155: uvm_test_top.env.scb [] Addr: ff Expected Data: 95 Actual Data: 95
+UVM_INFO scoreboard.sv(38) @ 2195: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2195: uvm_test_top.env.scb [] Addr: ff Data: 6
+UVM_INFO scoreboard.sv(38) @ 2235: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2235: uvm_test_top.env.scb [] Addr: ff Data: 59
+UVM_INFO scoreboard.sv(38) @ 2275: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2275: uvm_test_top.env.scb [] Addr: ff Data: ce
+UVM_INFO scoreboard.sv(38) @ 2315: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2315: uvm_test_top.env.scb [] Addr: ff Data: 1b
+UVM_INFO scoreboard.sv(38) @ 2355: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2355: uvm_test_top.env.scb [] Addr: ff Data: 60
+UVM_INFO scoreboard.sv(45) @ 2395: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2395: uvm_test_top.env.scb [] Addr: ff Expected Data: 60 Actual Data: 60
+UVM_INFO scoreboard.sv(45) @ 2435: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2435: uvm_test_top.env.scb [] Addr: ff Expected Data: 60 Actual Data: 60
+UVM_INFO scoreboard.sv(38) @ 2475: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2475: uvm_test_top.env.scb [] Addr: ff Data: 34
+UVM_INFO scoreboard.sv(45) @ 2515: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2515: uvm_test_top.env.scb [] Addr: ff Expected Data: 34 Actual Data: 34
+UVM_INFO scoreboard.sv(38) @ 2555: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2555: uvm_test_top.env.scb [] Addr: ff Data: cf
+UVM_INFO scoreboard.sv(45) @ 2595: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2595: uvm_test_top.env.scb [] Addr: ff Expected Data: cf Actual Data: cf
+UVM_INFO scoreboard.sv(45) @ 2635: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2635: uvm_test_top.env.scb [] Addr: ff Expected Data: cf Actual Data: cf
+UVM_INFO scoreboard.sv(38) @ 2675: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2675: uvm_test_top.env.scb [] Addr: ff Data: 1b
+UVM_INFO scoreboard.sv(38) @ 2715: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2715: uvm_test_top.env.scb [] Addr: ff Data: 1
+UVM_INFO scoreboard.sv(38) @ 2755: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2755: uvm_test_top.env.scb [] Addr: ff Data: 35
+UVM_INFO scoreboard.sv(45) @ 2795: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2795: uvm_test_top.env.scb [] Addr: ff Expected Data: 35 Actual Data: 35
+UVM_INFO scoreboard.sv(38) @ 2835: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2835: uvm_test_top.env.scb [] Addr: ff Data: aa
+UVM_INFO scoreboard.sv(45) @ 2875: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2875: uvm_test_top.env.scb [] Addr: ff Expected Data: aa Actual Data: aa
+UVM_INFO scoreboard.sv(38) @ 2915: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 2915: uvm_test_top.env.scb [] Addr: ff Data: e2
+UVM_INFO scoreboard.sv(45) @ 2955: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2955: uvm_test_top.env.scb [] Addr: ff Expected Data: e2 Actual Data: e2
+UVM_INFO scoreboard.sv(45) @ 2995: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 2995: uvm_test_top.env.scb [] Addr: ff Expected Data: e2 Actual Data: e2
+UVM_INFO scoreboard.sv(38) @ 3035: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 3035: uvm_test_top.env.scb [] Addr: ff Data: 69
+UVM_INFO scoreboard.sv(38) @ 3075: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: WRITE DATA       :: ------
+UVM_INFO scoreboard.sv(39) @ 3075: uvm_test_top.env.scb [] Addr: ff Data: 90
+UVM_INFO scoreboard.sv(45) @ 3115: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 3115: uvm_test_top.env.scb [] Addr: ff Expected Data: 90 Actual Data: 90
+UVM_INFO scoreboard.sv(45) @ 3155: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 3155: uvm_test_top.env.scb [] Addr: ff Expected Data: 90 Actual Data: 90
+UVM_INFO scoreboard.sv(45) @ 3195: uvm_test_top.env.scb [APB_SCOREBOARD] ------ :: READ DATA MATCH       :: ------
+UVM_INFO scoreboard.sv(46) @ 3195: uvm_test_top.env.scb [] Addr: ff Expected Data: 90 Actual Data: 90
+UVM_INFO /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 3295: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 3295: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  165
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[]    81
+[APB_SCOREBOARD]    81
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/U-2023.03-SP2//etc/uvm-1.2/src/base/uvm_root.svh", line 527.
+$finish at simulation time                 3295
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3295 ns
+CPU Time:      0.500 seconds;       Data structure size:   0.4Mb
+Sat Jan 17 06:28:52 2026
+Finding VCD file...
+./dump.vcd
+[2026-01-17 11:28:52 UTC] Opening EPWave...
+Done
